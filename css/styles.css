@@ -22,22 +22,22 @@ body {
     height: 20rem;
     background-color: white;
     border-radius: 14px;
+    box-shadow: 0px 10px 8px 10px #88888812;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 0px 10px 8px 10px #88888812;
-
+    gap: 0.7rem;
 }
 
-.image img {
-    width: 13rem;
-    border-radius: 10px;
+img {
+    width: 100%;
+    border-radius: 14px;
 }
+
 
 .tittle-text {
     text-align: center;
-    margin: 0px 15px;
+    margin: 0px 13px;
     color: hsl(218, 44%, 22%);
 }
 
@@ -45,6 +45,6 @@ body {
     text-align: center;
     font-size: 10px;
     color: hsl(220, 15%, 55%);
-    margin: 0px 15px;
+    margin: 0px 13px;
 
 }
